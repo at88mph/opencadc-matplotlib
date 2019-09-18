@@ -1,0 +1,21 @@
+FROM opencadc/astropy:2.7-alpine
+
+RUN apk --no-cache add \
+    bsd-compat-headers \
+    build-base \
+    freetype-dev \
+    gcc \
+    gfortran \
+    libc-dev \
+    libffi-dev \
+    libmagic \
+    libpng-dev \
+    libxslt-dev \
+    openblas-dev \
+    openssl-dev \
+    py-numpy \
+    py-pip \
+    python \
+    python-dev
+
+RUN pip --no-cache-dir install matplotlib
