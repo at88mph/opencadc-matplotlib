@@ -12,10 +12,6 @@ RUN apk --no-cache add \
     libpng-dev \
     libxslt-dev \
     openblas-dev \
-    openssl-dev \
-    py-numpy \
-    py-pip \
-    python \
-    python-dev
+    openssl-dev
 
 RUN pip --no-cache-dir install matplotlib
