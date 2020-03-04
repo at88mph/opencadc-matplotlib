@@ -1,4 +1,4 @@
-FROM opencadc/astropy:2.7-alpine
+FROM opencadc/astropy:3.8-alpine
 
 RUN apk --no-cache add \
     bsd-compat-headers \
