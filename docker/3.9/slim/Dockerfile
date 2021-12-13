@@ -1,7 +1,7 @@
 FROM opencadc/astropy:3.9-slim
 
-RUN apt-get update \
-    && apt-get install -y \
+RUN apt update \
+    && apt install -y \
         build-essential \
         gcc \
         gfortran \
@@ -17,6 +17,6 @@ RUN apt-get update \
 
 RUN pip --no-cache-dir install matplotlib
 
-RUN apt-get clean \
-    && apt-get autoclean \
+RUN apt clean \
+    && apt autoclean \
     && rm -rf /var/lib/apt/lists/*
