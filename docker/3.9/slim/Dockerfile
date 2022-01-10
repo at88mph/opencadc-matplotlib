@@ -1,4 +1,4 @@
-FROM opencadc/astropy:3.9-slim
+FROM opencadc/astropy-4:3.9-slim
 
 RUN apt update \
     && apt install -y \
