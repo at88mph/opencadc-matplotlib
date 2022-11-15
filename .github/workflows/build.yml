@@ -1,4 +1,4 @@
-name: OpenCADC Matplotlib Docker CI
+name: OpenCADC MatPlotLib Docker CI
 
 on:
   pull_request:
