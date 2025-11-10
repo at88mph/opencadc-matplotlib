@@ -9,36 +9,19 @@ jobs:
   #
   # Package jobs
   #
-  package-3_9:
-    uses: ./.github/workflows/docker.yml
-    secrets: inherit
-    with:
-      name: matplotlib
-      version: '3.9'
-      flavour: slim
-
-  package-3_10:
-    uses: ./.github/workflows/docker.yml
-    secrets: inherit
-    with:
-      name: matplotlib
-      version: '3.10'
-      flavour: slim
-
-  package-3_11:
-    uses: ./.github/workflows/docker.yml
-    secrets: inherit
-    with:
-      name: matplotlib
-      version: '3.11'
-      flavour: slim
-
   package-3_12:
     uses: ./.github/workflows/docker.yml
     secrets: inherit
     with:
       name: matplotlib
       version: '3.12'
+      flavour: slim
+  package-3_13:
+    uses: ./.github/workflows/docker.yml
+    secrets: inherit
+    with:
+      name: matplotlib
+      version: '3.13'
       flavour: slim
 #
 # End Package Jobs
