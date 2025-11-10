@@ -1,3 +1,3 @@
-FROM opencadc/astropy:3.10-slim
+FROM opencadc/astropy:3.13-slim
 
 RUN pip --no-cache-dir install matplotlib
